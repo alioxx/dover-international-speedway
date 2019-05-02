@@ -1,0 +1,25 @@
+{
+    "name": "alioxx/dover-international-speedway",
+    "description": "dover international speedway",
+    "homepage": "https://github.com/alioxx/dover-international-speedway",
+	"keywords": ["dover international speedway"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Here :",
+            "homepage": "http://bit.ly/2ZLk2CF",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
